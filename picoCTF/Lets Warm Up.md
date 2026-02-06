@@ -16,5 +16,4 @@ Convertir el número en hexadecimal a su representación en código ASCII
 
 ## Referencias
 - https://gchq.github.io/CyberChef/
-- 
 
