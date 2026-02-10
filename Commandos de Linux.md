@@ -57,34 +57,34 @@
 
 ## 3. Comandos sobre el sistema de archivos
 
-| Comando | Acción |
-|---------|--------|
-| `ls` | Listar archivos |
-| `ls -la` | Listar con formato largo e incluir ocultos |
-| `cd dirname` | Cambiar de directorio |
-| `cd -` | Ir al directorio anterior |
-| `cd` | Ir al directorio home |
-| `cd ..` | Subir al directorio padre |
-| `cd /` | Ir al directorio raíz |
-| `pwd` | Mostrar ruta actual |
-| `mkdir dir` | Crear directorio |
-| `rm file` | Borrar archivo |
-| `rm -r dir` | Borrar directorio |
-| `rm -f file` | Borrar archivo forzado |
-| `rm -rf dir` | Borrar directorio forzado |
-| `cp file1 file2` | Copiar archivo |
-| `cp -r dir1 dir2` | Copiar directorio (crea dir2 si no existe) |
-| `mv file1 file2` | Mover o renombrar |
-| `touch file` | Crear o actualizar archivo |
-| `ln -s file link` | Crear enlace simbólico |
-| `cat > file` | Redirigir salida a archivo (Ctrl+D termina) |
-| `cat file` | Mostrar contenido |
-| `more file` | Mostrar por páginas |
-| `less file` | Mostrar por páginas (navegable) |
-| `head file` | Primeras 10 líneas |
-| `tail file` | Últimas 10 líneas |
-| `file file` | Tipo de archivo |
-| `find file` | Buscar archivo |
+| Comando           | Acción                                      |
+| ----------------- | ------------------------------------------- |
+| `ls`              | Listar archivos                             |
+| `ls -la`          | Listar con formato largo e incluir ocultos  |
+| `cd dirname`      | Cambiar de directorio                       |
+| `cd -`            | Ir al directorio anterior                   |
+| `cd`              | Ir al directorio home                       |
+| `cd ..`           | Subir al directorio padre                   |
+| `cd /`            | Ir al directorio raíz                       |
+| `pwd`             | Mostrar ruta actual                         |
+| `mkdir dir`       | Crear directorio                            |
+| `rm file`         | Borrar archivo                              |
+| `rm -r dir`       | Borrar directorio                           |
+| `rm -f file`      | Borrar archivo forzado                      |
+| `rm -rf dir`      | Borrar directorio forzado                   |
+| `cp file1 file2`  | Copiar archivo                              |
+| `cp -r dir1 dir2` | Copiar directorio (crea dir2 si no existe)  |
+| `mv file1 file2`  | Mover o renombrar                           |
+| `touch file`      | Crear o actualizar archivo                  |
+| `ln -s file link` | Crear enlace simbólico                      |
+| `cat > file`      | Redirigir salida a archivo (Ctrl+D termina) |
+| `cat file`        | Mostrar contenido                           |
+| `more file`       | Mostrar por páginas                         |
+| `less file`       | Mostrar por páginas (navegable)             |
+| `head file`       | Primeras 10 líneas                          |
+| `tail file`       | Últimas 10 líneas                           |
+| `file file`       | Tipo de archivo                             |
+| `find file`       | Buscar archivo                              |
 
 ---
 
@@ -107,29 +107,29 @@
 
 ## 5. Información del sistema
 
-| Comando | Acción |
-|---------|--------|
-| `date` | Fecha y hora actual |
-| `cal` | Calendario del mes |
-| `uptime` | Tiempo encendido del sistema |
-| `w` | Quién está en línea |
-| `whoami` | Usuario actual |
-| `finger user` | Info del usuario |
-| `uname -a` | Info del sistema |
-| `uname -r` | Versión del kernel |
-| `hostname` | Nombre del host |
-| `cat /proc/cpuinfo` | Info de CPU |
-| `cat /proc/meminfo` | Info de memoria |
-| `df` | Uso de disco |
-| `du` | Uso por directorios |
-| `free` | Memoria y swap |
-| `dmesg` | Mensajes del kernel |
-| `lsusb -tv` | Dispositivos USB |
-| `lspci -tv` | Dispositivos PCI |
-| `locate recurso` | Buscar archivo/directorio |
-| `updatedb` | Actualizar base de locate |
-| `whereis app` | Ubicación de app |
-| `which app` | Qué app se ejecuta por defecto |
+| Comando             | Acción                         |     |
+| ------------------- | ------------------------------ | --- |
+| `date`              | Fecha y hora actual            |     |
+| `cal`               | Calendario del mes             |     |
+| `uptime`            | Tiempo encendido del sistema   |     |
+| `w`                 | Quién está en línea            |     |
+| `whoami`            | Usuario actual                 |     |
+| `finger user`       | Info del usuario               |     |
+| `uname -a`          | Info del sistema               |     |
+| `uname -r`          | Versión del kernel             |     |
+| `hostname`          | Nombre del host                |     |
+| `cat /proc/cpuinfo` | Info de CPU                    |     |
+| `cat /proc/meminfo` | Info de memoria                |     |
+| `df`                | Uso de disco                   |     |
+| `du`                | Uso por directorios            |     |
+| `free`              | Memoria y swap                 |     |
+| `dmesg`             | Mensajes del kernel            |     |
+| `lsusb -tv`         | Dispositivos USB               |     |
+| `lspci -tv`         | Dispositivos PCI               |     |
+| `locate recurso`    | Buscar archivo/directorio      |     |
+| `updatedb`          | Actualizar base de locate      |     |
+| `whereis app`       | Ubicación de app               |     |
+| `which app`         | Qué app se ejecuta por defecto |     |
 
 ---
 
