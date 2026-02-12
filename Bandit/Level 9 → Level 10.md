@@ -29,7 +29,7 @@ E========== is
 Que nos data la contraseña para el siguiente nivel
 
 ```
-	**FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey**
+	FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 ```
 
 ## Notas 
